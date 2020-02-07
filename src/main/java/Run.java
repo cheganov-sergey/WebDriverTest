@@ -100,6 +100,7 @@ public class Run {
         // как выбирать из списка не понял
 
         // Тестируем дату
+        System.out.println("Тестируем Дату рождения: ");
         TryInputDate(21,2,1990);
      TryInputDate(1, 12, 1980);
      TryInputDate(44,0,1888);
@@ -219,8 +220,8 @@ public class Run {
             waitTime(2);
 
             if (!FindElemrnts(Property.ERROR_DATE))
-                System.out.println("Дата: " + dd + "." + mm + "." + "yyyy" + " - PASS");
-            else  System.out.println("Дата: " + dd + "." + mm + "." + "yyyy" + " - FAIL");
+                System.out.println("Дата: " + dd + "." + mm + "." + yyyy + " - PASS");
+            else  System.out.println("Дата: " + dd + "." + mm + "." + yyyy + " - FAIL");
 
 
 
